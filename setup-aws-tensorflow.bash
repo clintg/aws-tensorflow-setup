@@ -42,7 +42,7 @@ rm Anaconda3-4.0.0-Linux-x86_64.sh
 echo 'export PATH="/mnt/bin/anaconda3/bin:$PATH"' >> ~/.bashrc
 
 # install tensorflow
-export TF_BINARY_URL='https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.9.0rc0-cp35-cp35m-linux_x86_64.whl'
+export TF_BINARY_URL='https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0rc0-cp35-cp35m-linux_x86_64.whl'
 
 /mnt/bin/anaconda3/bin/pip install $TF_BINARY_URL
 
