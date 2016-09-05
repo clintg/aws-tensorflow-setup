@@ -40,7 +40,6 @@ wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -b -p /mnt/bin/anaconda3
 rm Miniconda3-latest-Linux-x86_64.sh
 echo 'export PATH="/mnt/bin/anaconda3/bin:$PATH"' >> ~/.bashrc
-conda install --yes pandas scikit-learn ipython matplotlib gensim
 
 # install tensorflow
 export TF_BINARY_URL='https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.10.0rc0-cp35-cp35m-linux_x86_64.whl'
