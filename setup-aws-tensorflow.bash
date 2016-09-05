@@ -55,6 +55,9 @@ sudo apt-get -y install htop
 
 # reload .bashrc
 exec bash
+
+# Install Conda Packages
+conda install --yes pandas scikit-learn ipython matplotlib gensim
 ############################################
 # run the test
 # byobu				# start byobu + press Ctrl + F2 
